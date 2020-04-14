@@ -1,0 +1,9 @@
+@mixin mQuery($name) {
+  @media screen and (max-width: query($name)) {
+    @content;
+  }
+}
+
+@function query($name) {
+  @return map-get($width-stack, $name);
+}

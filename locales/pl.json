@@ -1,0 +1,401 @@
+{
+  "errors": {
+    "header": "Błąd {n}",
+    "404": {
+      "text": "Nie możemy znaleźć strony"
+    },
+    "500": {
+      "text": "Wewnętrzny błąd serwera"
+    },
+    "503": {
+      "text": "Usługa niedostępna"
+    },
+    "403": {
+      "text": "Brak uprawnień"
+    },
+    "noPremissions": "Nie masz uprawnień do tej strony",
+    "conflictSaveNotification": "Wystąpił konflikt przy zapisie",
+    "defaultInfo": "Upss... coś poszło nie tak. Spróbuj ponownie"
+  },
+  "buttons": {
+    "backToHomePage": "Wróć do strony głównej",
+    "back": "Powrót",
+    "logOut": "Wyloguj się",
+    "profile": "Profil",
+    "search": "Szukaj",
+    "create": "Utwórz",
+    "reset": "Wyczyść",
+    "add": "Dodaj",
+    "save": "Zapisz",
+    "yes": "Tak",
+    "cancel": "Anuluj",
+    "remove": "Usuń"
+  },
+  "input": {
+    "search": "Szukaj",
+    "itemsPerPage": "Liczba wyświetleń na stronie"
+  },
+  "menu": {
+    "start": "Start",
+    "settings": {
+      "name": "Ustawienia",
+      "profile": "Profil firmy",
+      "userFields": "Pola użytkowników",
+      "paymentMethods": "Metody płatności",
+      "paymentGroups": "Grupy płatności",
+      "communicationSettings": "Ustawienia komunikacji",
+      "exports": "Eksporty",
+      "integrations": "Integracje",
+      "logs": "Logi",
+      "admins": "Administratorzy",
+      "adminsGroups": "Grupy administratorów",
+      "currencies": "Waluty",
+      "languages": "Języki",
+      "companyProfile": "Profil firmy"
+    },
+    "payments": {
+      "name": "Płatności",
+      "methods": "Metody płatności"
+    },
+    "trips": "Wyjazdy",
+    "reservations": "Rezerwacje",
+    "users": "Użytkownicy",
+    "discounts": "Zniżki",
+    "communication": "Komunikacja",
+    "documentPatterns": "Wzory dokumentów",
+    "generetedDocuments": "Wygenerowane dokumenty"
+  },
+  "validation": {
+    "email": {
+      "required": "Adres email jest wymagany",
+      "valid": "Podaj poprawny adres email",
+      "occupied": "Podany adres email jest już używany"
+    },
+    "doc_id": {
+      "occupied": "Podany numer dowodu jest już używany"
+    },
+    "pesel": {
+      "occupied": "Podany numer pesel jest już używany"
+    },
+    "name": {
+      "required": "Imię jest wymagane",
+      "min": "Min 6 znaków"
+    },
+    "password": {
+      "required": "Hasło jest wymagane",
+      "min": "Min 6 znaków",
+      "bigLetter": "Hasło powinno zawierać przynajmniej jedną dużą literę",
+      "character": "Hasło powinno zawierać przynajmniej jeden znak specjalny",
+      "number": "Hasło powinno zawierać przynajmniej jedną cyfrę",
+      "match": "Hasła nie pasują"
+    },
+    "default": {
+      "required": "To pole jest wymagane",
+      "minCharacters": "Minimalna ilość znaków: {n}",
+      "maxCharacters": "Maksymalna ilość znaków: {n}",
+      "numberOfCharacters": "Wymagana ilość znaków: {n}"
+    }
+  },
+  "message": {
+    "info": {
+      "pleaseWait": "Pobieranie. Proszę czekać",
+      "emailRedirection": "Z powodu zbyt dużej wagi, dane zostały wysłane na skrzynkę pocztową.",
+      "noResults": "Brak wyników",
+      "loading": "Ładownie...",
+      "fileTooBig": "Waga pliku przekracza 2MB",
+      "generalError": "Wystąpił jakiś błąd. Spróbuj jeszcze raz, my go w międzyczasie zbadamy.",
+      "confirmDefaultText": "Czy jesteś pewien?"
+    }
+  },
+  "searchComponent": {
+    "invalidDate": "Nieprawidłowy zakres dat",
+    "removeFilterConfirm": "Czy na pewno chcesz usunąć ten filtr?",
+    "search": "Szukaj",
+    "remove": "Usuń",
+    "save": "Zapisz",
+    "savedFilters": "Zapisane wyszukiwania",
+    "saveFilter": "Zapisz filtry",
+    "resetFilters": "Wyczyść filtry",
+    "removeFilter": "Usuń filtr",
+    "filterSaveInfo": "Filtr został zapisany",
+    "filterName": "Nazwa filtra",
+    "filterDeleteInfo": "Filtr został usunięty",
+    "deleteConfirm": "Czy na pewno chcesz usunąć ten filtr",
+    "export": "Eksportuj listę w formacie:",
+    "dateRange": "Wybierz zakres"
+  },
+  "login": {
+    "title": "Witamy panelu administracyjnym Zero Gravity",
+    "password": "Hasło",
+    "passwordUpdate": "Zmiana hasła",
+    "passwordResetRequest": "Zresetuj swoje hasło",
+    "passwordReset": "Ustaw nowe hasło",
+    "input": {
+      "email": "E-mail"
+    },
+    "button": {
+      "logIn": "Zaloguj się",
+      "forgotPassword": "Zapomniałeś hasło?"
+    },
+    "info": {
+      "authError": "Podane błędne dane logowania. Spróbuj jeszcze raz.",
+      "authAccountInactive": "Konto nie zostało aktywowane."
+    }
+  },
+  "passwordReset": {
+    "input": {
+      "email": "E-mail",
+      "password": "Twoje hasło",
+      "passwordRepeat": "Powtórz hasło"
+    },
+    "button": {
+      "logIn": "Zaloguj się",
+      "passwordReset": "Zresetuj hasło",
+      "passwordChange": "Zmień hasło"
+    },
+    "info": {
+      "passwordResetRequestSuccess": "Udało się! Sprawdź podany adres email.",
+      "passwordResetSuccess": "Hasło zostało zmienione. Możesz się teraz zalogować.",
+      "resetTokenInvalid": "Czas na zmianę hasła minął, lub hasło zostało już zmienione z użyciem tego linka. Wygeneruj nowy link do zmiany hasła.",
+      "resetPasswordTooWeak": "Hasło jest za słabe. Skomplikuj życie hakerom. Hasło powinno składać się z przynajmniej 6 znaków, jednej wielkiej litery, jednej cyfry i jednego znaku specjalnego."
+    }
+  },
+  "profile": {
+    "editTitle": "Edytuj profil",
+    "isActive": "Aktywny",
+    "detailsTitle": "Szczegóły profilu administratora",
+    "addTitle": "Dodaj administratora",
+    "passwordUpdate": "Zmiana hasła",
+    "info": {
+      "permissionDenied": "Nie posiadasz uprawnień do zmiany pewnych danych.",
+      "updateSuccess": "Profil zaktualizowany pomyślnie",
+      "passwordUpdateSuccess": "Hasło zostało zaktualizowane",
+      "passwordChangeInvalid": "Twoje hasło jest nieprawidłowe"
+    },
+    "input": {
+      "name": "Imię",
+      "email": "E-mail",
+      "surname": "Nazwisko",
+      "oldPassword": "Twoje stare hasło",
+      "oldPassword2": "Stare hasło",
+      "newPassword": "Twoje nowe hasło",
+      "newPassword2": "Nowe hasło",
+      "repeatPassword": "Twoje nowe hasło",
+      "repeatPassword2": "Powtórz nowe hasło",
+      "group": "Grupa",
+      "typeToSearch": "Wpisz aby wyszukać",
+      "status": "Status"
+    },
+    "button": {
+      "passwordChange": "Zmień hasło",
+      "updateProfile": "Zapisz zmiany",
+      "updatePassword": "Zapisz hasło",
+      "back": "Powrót"
+    },
+    "confirm": {
+      "removeTitle": "Usuń administratora"
+    }
+  },
+  "adminGroups": {
+    "editTitle": "Edycja grupy",
+    "addTitle": "Dodaj grupę",
+    "email": "E-mail",
+    "input": {
+      "search": "Szukaj",
+      "name": "Nazwa grupy",
+      "status": "Status"
+    },
+    "table": {
+      "headers": {
+        "id": "Id",
+        "first_name": "Imię",
+        "quard": "Uprawnienia",
+        "created": "Utworzono",
+        "updated": "Zaktualiowano"
+      }
+    },
+    "info": {
+      "saveSuccess": "Dane zostały zapisane"
+    }
+  },
+  "paymentGroups": {
+    "id": "ID",
+    "name": "Nazwa",
+    "updateNote": "Dane zostały zaktualizowane",
+    "createNote": "Grupa została utworzona",
+    "deleteNote": "Grupa została usunięta",
+    "editGroup": "Edycja grupy",
+    "addGroup": "Dodaj grupę",
+    "input": {
+      "search": "Szukaj",
+      "name": "Nazwa grupy",
+      "status": "Status"
+    },
+    "table": {
+      "headers": {
+        "id": "Id",
+        "name": "Nazwa",
+        "order": ""
+      }
+    },
+    "confirm": {
+      "removeGroup": "Czy na pewno chcesz usunąć tą grupę?",
+      "remove": "Usuń"
+    }
+  },
+  "admins": {
+    "table": {
+      "headers": {
+        "id": "Id",
+        "first_name": "Imię",
+        "last_name": "Nazwisko",
+        "email": "Email",
+        "created": "Utworzono",
+        "active": "Aktywny",
+        "group": "Grupa",
+        "avatar": "Avatar",
+        "actions": "Akcje"
+      }
+    },
+    "info": {
+      "saveSuccess": "Dane zostały zapisane",
+      "removeSuccess": "Administrator został usunięty"
+    }
+  },
+  "logs": {
+    "table": {
+      "headers": {
+        "id": "Id",
+        "url": "URL",
+        "method": "Metoda",
+        "params": "Parametry",
+        "email": "Email",
+        "ip": "IP",
+        "date": "Data",
+        "currency_code": "Kod waluty"
+      }
+    }
+  },
+  "clients": {
+    "editUser": "Edycja użytkownika",
+    "addUser": "Dodaj użytkownika",
+    "createNote": "Użytkownik został utworzony",
+    "updateNote": "Dane zostały zaktualizowane",
+    "deleteNote": "Użytkownik został usunięty",
+    "password": "Twoje hasło",
+    "passwordRepeat": "Powtórz hasło",
+    "id": "Id",
+    "first_name": "Imię użytkownika",
+    "last_name": "Nazwisko",
+    "pesel": "Pesel",
+    "email": "Email",
+    "city": "Miasto",
+    "street": "Ulica",
+    "house": "Numer domu",
+    "doc_id": "Numer dowodu osobistego",
+    "zipcode": "Kod pocztowy",
+    "date_of_birth": "Data urodzin",
+    "created_at": "Utworzono",
+    "status": "Aktywny",
+    "table": {
+      "headers": {
+        "first_name": "Imię",
+        "last_name": "Nazwisko",
+        "pesel": "Pesel",
+        "email": "Email",
+        "created": "Utworzono"
+      }
+    },
+    "confirm": {
+      "removeClient": "Czy na pewno chcesz usunąć tego użytkownika?",
+      "remove": "Usuń"
+    }
+  },
+  "currencies": {
+    "search": "Szukaj",
+    "save": "Zapisz",
+    "addTitle": "Dodaj walutę",
+    "editTitle": "Edycja waluty",
+    "currencyName": "Nazwa waluty",
+    "currencyShortName": "Skrót nazwy waluty",
+    "currencyNameConflict": "Ta nazwa występuje już w systemie",
+    "currencyShortNameConflict": "Ta nazwa występuje już w systemie",
+    "deleteSuccessInfo": "Waluta została usunięta",
+    "info": {
+      "deleteError": "Nie możesz usunąć waluty. Jest to waluta domyślna",
+      "saveSuccess": "Dane zostały zapisane",
+      "permissionDenied": "Nie posiadasz uprawnień do zmiany danych"
+    },
+    "confirm": {
+      "removeTitle": "Usuń walutę"
+    }
+  },
+  "languages": {
+    "search": "Szukaj",
+    "save": "Zapisz",
+    "addTitle": "Dodaj język",
+    "editTitle": "Edycja języka",
+    "languageName": "Nazwa języka",
+    "languageShortName": "Skrót nazwy języka",
+    "languageNameConflict": "Ta nazwa występuje już w systemie",
+    "languageShortNameConflict": "Ta nazwa występuje już w systemie",
+    "deleteSuccessInfo": "Język został usunięty",
+    "info": {
+      "deleteError": "Nie możesz usunąć języka. Jest to język domyślny",
+      "saveSuccess": "Dane zostały zapisane",
+      "permissionDenied": "Nie posiadasz uprawnień do zmiany danych"
+    }
+  },
+  "company": {
+    "editTitle": "Edycja profilu firmy",
+    "addressSimple": "Adres",
+    "tabs": {
+      "base": "Podstawowe dane",
+      "logo": "Logotyp",
+      "smtp": "Ustawienia SMTP"
+    },
+    "form": {
+      "name": "Nazwa firmy",
+      "address": "Adres firmy",
+      "postalCode": "Kod pocztowy",
+      "postalCodeFormat": "XX-XXX",
+      "city": "Miasto",
+      "nip": "NIP",
+      "nipFormat": "XXXXXXXXXX",
+      "regon": "REGON",
+      "language": "Język przypisany do firmy",
+      "currency": "Waluta przypisana do firmy",
+      "policy": "Polityka prywatności",
+      "typeToSearch": "Wpisz aby wyszukać",
+      "host": "Host",
+      "username": "Nazwa użytkownika",
+      "password": "Hasło",
+      "port": "Port",
+      "senderEmail": "Email nadawcy",
+      "senderName": "Nazwa nadawcy",
+      "logoBtn": "Zmień logotyp"
+    },
+    "button": {
+      "edit": "Edytuj"
+    },
+    "info": {
+      "success": "Dane zostały zaktualizowane"
+    }
+  },
+  "paymentMethods": {
+    "editTitle": "Edycja metody płatności",
+    "form": {
+      "name": "Nazwa metody płatności",
+      "status": "Status",
+      "isActive": "Aktywny",
+      "channel": "Kanał płatności",
+      "group": "Grupa płatności",
+      "typeToSearch": "Wpisz aby wyszukać"
+    },
+    "info": {
+      "deleteError": "Nie możesz usunąć metody płatności",
+      "saveSuccess": "Dane zostały zapisane",
+      "permissionDenied": "Nie posiadasz uprawnień do zmiany danych"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+image: node:10.15.3
+
+cache:
+  untracked: true
+  paths:
+    - node_modules/
+
+stages:
+  - setup
+  - build
+  - preview
+
+setup:
+  stage: setup
+  script:
+    - npm install
+  only:
+    - stage
+
+build:
+  stage: build
+  script:
+    - npm run build
+  only:
+    - stage
+
+preview:
+ stage: preview
+ script:
+    - apt-get update -qy
+    - apt-get install -y lftp
+    - lftp -e "set ftp:ssl-allow no; open $FTP_HOST; user $FTP_USER $FTP_PASS; mirror -Rev -L ./ ./  --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+ dependencies:
+    - build
+ artifacts:
+  expire_in: 1 day
+ only:
+  - stage

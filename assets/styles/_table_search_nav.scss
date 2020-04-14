@@ -1,0 +1,42 @@
+.v-card {
+  .zg_search-nav {
+    &__btns {
+      @include mQuery(sm) {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .v-btn {
+      height: 3.4rem;
+    }
+
+    .v-input {
+      max-width: 35rem;
+
+      @include mQuery(sm) {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      .v-input__control .v-input__slot {
+        min-height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+
+        .v-text-field__slot {
+          .v-label {
+            font-size: $font-size-root;
+            top: 8px;
+          }
+
+          input {
+            margin: 2px 0;
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.zg_table {
+  tbody tr:not(:last-child) td:not(.v-data-table__mobile-row) {
+    border-bottom: 1px dashed #c4c4c4;
+  }
+
+  th {
+    font-weight: 600;
+    color: $secondary;
+  }
+
+  td {
+    color: $secondary;
+    vertical-align: middle;
+  }
+}

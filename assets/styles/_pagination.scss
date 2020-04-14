@@ -1,0 +1,22 @@
+.zg_pagination {
+  display: flex;
+
+  @include mQuery(sm) {
+    flex-direction: column-reverse;
+  }
+
+  .v-pagination {
+    width: auto;
+
+    .v-pagination__item,
+    .v-pagination__navigation {
+      font-size: $font-size-root;
+      background: rgba(189, 189, 189, 0.2);
+      box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .v-input {
+    max-width: 10rem;
+  }
+}
